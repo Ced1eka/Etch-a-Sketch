@@ -1,6 +1,10 @@
 const containerDiv = document.querySelector('.container');
 
-const div = document.createElement('div');
-containerDiv.appendChild(div);
 
-div.textContent = 'test to make sure everyting is wired up correctly';
+for (let i = 0; i < 256; i++ ){
+      const newDiv = document.createElement('div');
+      newDiv.textContent = `${i+1}`;
+      containerDiv.appendChild(newDiv);
+
+
+}

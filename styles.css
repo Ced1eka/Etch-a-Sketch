@@ -27,14 +27,20 @@ body{
       /* background-color: rgb(202, 102, 102); */
       aspect-ratio: 1;
       flex-shrink: 1;
-
-
 }
+
+
 .button-default{
       align-self: center;
       border: 1px solid pink;
       padding: 1rem;
       border-radius: .2rem;
-      background-color: hotpink;
+      background-color: #90E16C;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button-clicked{
+
+      border: 2px solid #398327;
+      background-color: white;
 }
